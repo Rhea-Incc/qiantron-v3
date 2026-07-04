@@ -83,7 +83,7 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
         content:
           "QianTron sources, ships, clears and delivers premium construction and mining machinery to sites across Africa and beyond — engineered end-to-end.",
       },
-      { property: "og:title", content: "QianTron — Engineering Trust. Delivering Power." },
+      { property: "og:title", content: "QianTron — Premium Machinery. Seamless Logistics. Delivered." },
       {
         property: "og:description",
         content:
@@ -92,6 +92,12 @@ export const Route = createRootRouteWithContext<{ queryClient: QueryClient }>()(
       { property: "og:type", content: "website" },
       { name: "twitter:card", content: "summary_large_image" },
       { name: "theme-color", content: "#111111" },
+      { name: "twitter:title", content: "QianTron — Premium Machinery. Seamless Logistics. Delivered." },
+      { name: "description", content: "QianTron sources, inspects, ships, clears and delivers heavy machinery to sites across Africa. Engineered end-to-end." },
+      { property: "og:description", content: "QianTron sources, inspects, ships, clears and delivers heavy machinery to sites across Africa. Engineered end-to-end." },
+      { name: "twitter:description", content: "QianTron sources, inspects, ships, clears and delivers heavy machinery to sites across Africa. Engineered end-to-end." },
+      { property: "og:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/AUz9W2VK0kOJFLwDWOHepzl9Ibx1/social-images/social-1783171349079-555.webp" },
+      { name: "twitter:image", content: "https://storage.googleapis.com/gpt-engineer-file-uploads/AUz9W2VK0kOJFLwDWOHepzl9Ibx1/social-images/social-1783171349079-555.webp" },
     ],
     links: [
       { rel: "stylesheet", href: appCss },
